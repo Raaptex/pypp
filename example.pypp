@@ -1,0 +1,23 @@
+def get_message(choice) {
+    if (choice > target) {
+        return "Less";
+    }
+    if (choice < target) {
+        return "More";
+    }
+    if (choice == target) {
+        return "GG !";
+    }
+}
+
+choice = "";
+target = 45;
+
+print("Between 1 - 100");
+
+while (choice != target) {
+    choice = int(input("? "));
+    print(get_message(choice));
+}
+
+input("Press enter to close this game");
