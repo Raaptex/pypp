@@ -40,15 +40,15 @@ c = True;
 ### Functions
 ```py
 def add(a, b) {
-	return a + b;
+    return a + b;
 }
 ```
 ### If Statements
 ```py
 if(a == b) {
-	print("a is equal to b");
+    print("a is equal to b");
 } else {
-	print("a is not equal to b");
+    print("a is not equal to b");
 }
 ```
 **`elif` is not implemented**
@@ -56,7 +56,7 @@ if(a == b) {
 ### For Loop
 ```py
 for(i in range(10)) {
-	print(i)
+    print(i)
 }
 ```
 
@@ -64,7 +64,7 @@ for(i in range(10)) {
 ```py
 i = 0;
 while(i < 10) {
-	print(i)
-	i++;
+    print(i)
+    i++;
 }
 ```
